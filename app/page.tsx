@@ -334,13 +334,13 @@ function FuturisticLoader() {
           key={`particle-${i}`}
           className="absolute w-1 h-1 rounded-full bg-primary/80"
           initial={{
-            x: Math.random() * window.innerWidth,
-            y: Math.random() * window.innerHeight,
+            x: `${Math.random() * 100}vw`,
+            y: `${Math.random() * 100}vh`,
             opacity: 0,
           }}
           animate={{
-            x: Math.random() * window.innerWidth,
-            y: Math.random() * window.innerHeight,
+            x: `${Math.random() * 100}vw`,
+            y: `${Math.random() * 100}vh`,
             opacity: [0, 1, 0],
           }}
           transition={{
